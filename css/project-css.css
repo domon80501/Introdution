@@ -1,0 +1,151 @@
+	#link{
+		color: black;
+		line-height: 40px;
+		text-decoration:none;
+	}
+	
+	#background{
+		background-color: #E2E2E2;
+	}
+	#flo{
+		display:inline;
+	}
+	#ului{
+	list-style-type:none;
+}
+	#ului1{
+		line-height: 80px;
+		font-size: 40px;
+		list-style-type:none;
+
+	}
+	#mypic{
+		
+		width: 276px;
+		height: 276px;
+		margin-left: -600px;
+		margin-top: -150px;
+		overflow: hidden;
+		border-radius: 50%;
+		
+	}
+/*----------------------------------主框開始-------------------------------------*/
+
+	#back{  /*最大框*/
+	    background-color: white;
+		width: 2200px;
+		height: 1500px;
+		margin: auto;	
+		
+	}
+	#box__top{ /*上欄*/
+		
+		
+		width: 100%;
+		height: 300px;
+		
+		margin: auto;
+	}
+	#box_top_select{ /*上欄選項*/
+		
+		
+		margin-left: 50%;
+		
+	}
+	#mid_border{
+		width: 1500px;
+		border-bottom: 3px solid gray;
+		margin: auto;
+	}
+	#mid_box{  /*中間MAIN*/
+		
+		width: 2000px;
+		height: 1000px;
+		
+		margin: auto;
+	}
+	#mid_box_left{ 	/*MAIN left*/
+		margin-top: 150px;
+		margin-left: 300px;
+		width: 400px;
+		height: 1000px;
+		
+		float: left;
+	}
+	#mid_box2_right{  /*MAIN right*/
+		margin-top: 150px;
+		width: 1000px;
+		height: 1000px;
+		
+		float: left;
+		overflow: auto;
+	}
+/*#box_left{
+		width: 80%;
+		height: 1500px;
+		border: 1px solid;
+		margin: auto;
+		margin-top: 50px;
+	}
+	#box_right{
+		width: 250px;
+		height: 500px;
+		border: 1px solid;
+	}*/
+/*--------------------------------主框結束------------------------------------*/
+
+/*文字樣式*/
+
+#top_introdution{
+	margin-left: -180px;
+	font-size: 40px;
+}
+
+
+
+
+
+/*----------------------------CSS input樣式開始---------------------------------*/
+
+
+input{
+	border: 0px;
+	font-size: 30px;
+	margin-left: 10px;
+
+}
+
+
+/*----------------------------CSS input樣式結束---------------------------------*/
+
+
+
+#img{
+	width: 350px;
+	height: 1000px;
+	margin-top: 50px;
+}
+#test{
+	width: 300px;
+	height: 800px;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 80px;
+	
+}
+
+/*----------------------------左側選擇---------------------------------*/
+
+ 
+
+ #left_select{
+  
+  width: 60%;
+  padding: 20px;
+  
+}
+ #left_select_style{
+  padding: 20%;
+  font-size: 45px;
+  
+}
