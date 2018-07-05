@@ -22,7 +22,7 @@
 }
 #content{
 	width:60%;
-	
+	height: 1700px;
     margin: auto;
 }
 #box_top{
@@ -33,16 +33,25 @@
 	position: relative;
 	float: left;
 	width: 45%;
-	 overflow: hidden;
+	height: 1200px;
+	overflow-x: hidden;
+    overflow-y: scroll;
 	margin: auto;
+}
+#box_left::-webkit-scrollbar {
+    display: none;
 }
 #box_right{
 	position: relative;
 	float: right;
 	width: 45%;
-	
-	
+	height: 1200px;
+	overflow-x: hidden;
+    overflow-y: scroll;
 	margin: auto;
+}
+#box_right::-webkit-scrollbar {
+    display: none;
 }
 
 		#link{
@@ -52,8 +61,29 @@
 			margin-left: -15px;
 			list-style-type:none;
 		}
+		#list_style2{
+			
+			text-align: center;
+			margin-left: -15px;
+			list-style-type:none;
+			display: inline;
+		}
 		#mouse{
 			color: red;
+		}
+		#ul_speak{
+			list-style-type:none;
+			color: #40CD5A;
+			font-size: 25px;
+			font-weight: 550;
+			
+		}
+		#ul2_speak{
+			list-style-type:none;
+			color: #40CD5A;
+			font-weight: 550;
+			font-size: 25px;
+			margin-right: 170px;
 		}
 		#message{
 			
