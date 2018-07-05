@@ -1,0 +1,83 @@
+
+#header{
+	background: #D8D8D9;
+	height: 30px;
+	width: 60%;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin: auto;
+}
+#foot{
+	background: #D8D8D9;
+	bottom: 0;
+	height: 20px;
+	width: 60%;
+	text-align: center;
+    box-sizing: border-box; 
+    overflow: hidden;
+    margin: auto;
+}
+#big{
+	box-shadow:3px 3px 3px 3px #cccccc;
+}
+#content{
+	width:60%;
+	
+    margin: auto;
+}
+#box_top{
+	margin: auto;
+	margin-bottom: 50px;
+}
+#box_left{
+	position: relative;
+	float: left;
+	width: 45%;
+	 overflow: hidden;
+	margin: auto;
+}
+#box_right{
+	position: relative;
+	float: right;
+	width: 45%;
+	
+	
+	margin: auto;
+}
+
+		#link{
+			text-decoration: none;
+		}
+		#list_style{
+			margin-left: -15px;
+			list-style-type:none;
+		}
+		#mouse{
+			color: red;
+		}
+		#message{
+			
+			margin-left: 80%;
+			letter-spacing: 5px;
+		}
+		#mypic{
+		width: 226px;
+		height: 226px;
+		margin-left: 30px;
+		margin-top: 50px;
+		overflow: hidden;
+		border-radius: 50%;	
+				
+		}
+		#pic_align{
+		vertical-align:middle;
+		}
+		#title{
+			font-weight: bold;
+			
+			font-size: 30px;
+		}
+		#work_title{
+			color: #40CD5A;
+			font-weight: 550;
+		}
