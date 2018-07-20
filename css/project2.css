@@ -1,4 +1,6 @@
-
+#language{
+	width: 400px;
+}
 #header{
 	background: #D8D8D9;
 	height: 30px;
@@ -10,7 +12,7 @@
 #foot{
 	background: #D8D8D9;
 	bottom: 0;
-	height: 20px;
+	height: 30px;
 	width: 60%;
 	text-align: center;
     box-sizing: border-box; 
@@ -86,18 +88,23 @@
 			margin-right: 170px;
 		}
 		#message{
-			
 			margin-left: 80%;
-			letter-spacing: 5px;
+			letter-spacing: 10px;
 		}
 		#mypic{
+			float: left;
 		width: 226px;
 		height: 226px;
 		margin-left: 30px;
 		margin-top: 50px;
 		overflow: hidden;
-		border-radius: 50%;	
-				
+		border-radius: 50%;		
+		}
+		#mypic_text{
+			float: right;
+		margin-left: 50%;
+		margin-top: -10%;
+		padding-right: 25%;
 		}
 		#pic_align{
 		vertical-align:middle;
