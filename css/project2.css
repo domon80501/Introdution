@@ -24,12 +24,13 @@
 }
 #content{
 	width:60%;
+	padding-top: 2%;
 	height: 1700px;
     margin: auto;
 }
 #box_top{
 	margin: auto;
-	margin-bottom: 50px;
+	margin-bottom: 5px;
 }
 #box_left{
 	position: relative;
@@ -39,6 +40,7 @@
 	overflow-x: hidden;
     overflow-y: scroll;
 	margin: auto;
+	margin-top: 15%;
 }
 #box_left::-webkit-scrollbar {
     display: none;
@@ -51,6 +53,7 @@
 	overflow-x: hidden;
     overflow-y: scroll;
 	margin: auto;
+	margin-top: 15%;
 }
 #box_right::-webkit-scrollbar {
     display: none;
@@ -92,19 +95,20 @@
 			letter-spacing: 10px;
 		}
 		#mypic{
-			float: left;
+		
 		width: 226px;
 		height: 226px;
 		margin-left: 30px;
 		margin-top: 50px;
+		margin: 0px auto;
 		overflow: hidden;
 		border-radius: 50%;		
 		}
 		#mypic_text{
-			float: right;
-		margin-left: 100%;
-		margin-top: -10%;
-		padding-right: 25%;
+			
+		text-align: center;	
+		margin: 0px auto;
+		
 		}
 		#pic_align{
 		vertical-align:middle;
@@ -115,6 +119,6 @@
 			font-size: 30px;
 		}
 		#work_title{
-			color: #40CD5A;
+			color: #2C8AD8;
 			font-weight: 550;
 		}
