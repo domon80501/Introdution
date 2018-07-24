@@ -10,6 +10,7 @@
 	box-sizing: border-box;
 	overflow: hidden;
 	margin: auto;
+	margin-top:10px;
 }
 #foot{
 	background: #D8D8D9;
