@@ -4,13 +4,13 @@
 	margin: auto;
 }
 #header{
-	
+
 	height: 30px;
 	width: 60%;
 	box-sizing: border-box;
 	overflow: hidden;
 	margin: auto;
-	margin-top:10px;
+	margin-top: 10px;
 }
 #foot{
 	background: #D8D8D9;
@@ -125,7 +125,7 @@
 			background-color: #DAEEFF;
 			font-weight: bold;
 			font-family: Microsoft JhengHei;
-			font-size: 30px;
+			font-size: 25px;
 		}
 		#work_title{
 			color: #2C8AD8;
